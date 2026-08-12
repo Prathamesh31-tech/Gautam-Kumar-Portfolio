@@ -44,46 +44,46 @@ export default function SkillSection() {
       <div className="absolute top-1/3 right-1/4 -translate-y-1/2 w-[700px] h-[350px] bg-[#cfa856]/5 rounded-full blur-[170px] pointer-events-none" />
 
       {/* FULL SCREEN WIDTH CONTAINER */}
-      <div className="w-full px-5 sm:px-10 lg:px-14 xl:px-16 relative z-10">
+      <div className="w-full px-5 sm:px-10 lg:px-14 xl:px-16 2xl:px-24 3xl:px-32 relative z-10">
         
         {/* Section Header */}
-        <ScrollReveal className="text-center max-w-4xl mx-auto mb-12 sm:mb-16 space-y-2.5">
+        <ScrollReveal className="text-center max-w-4xl xl:max-w-5xl 2xl:max-w-6xl mx-auto mb-12 sm:mb-16 xl:mb-20 space-y-2.5 xl:space-y-4">
           
           {/* Top Label */}
-          <div className="text-[11px] font-mono tracking-[0.3em] text-[#cfa856] uppercase font-bold flex items-center justify-center gap-2">
-            <Sparkles className="w-3.5 h-3.5" />
+          <div className="text-[11px] xl:text-xs 2xl:text-sm font-mono tracking-[0.3em] text-[#cfa856] uppercase font-bold flex items-center justify-center gap-2">
+            <Sparkles className="w-3.5 h-3.5 xl:w-4 xl:h-4" />
             <span>MY SKILLS</span>
           </div>
 
           {/* Headline on Single Line */}
-          <h2 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-sans font-black tracking-tight text-white uppercase leading-none whitespace-nowrap">
+          <h2 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-sans font-black tracking-tight text-white uppercase leading-none whitespace-nowrap">
             SKILLS &nbsp;<span className="text-[#cfa856]">& EXPERTISE</span>
           </h2>
 
           {/* Underline Accent */}
-          <div className="w-12 h-[2px] bg-[#cfa856] mx-auto my-2" />
+          <div className="w-12 xl:w-16 h-[2px] xl:h-[3px] bg-[#cfa856] mx-auto my-2 xl:my-4" />
 
           {/* Subtitle Paragraph */}
-          <p className="text-slate-300 text-xs sm:text-sm font-normal leading-relaxed max-w-2xl mx-auto pt-0.5">
+          <p className="text-slate-300 text-xs sm:text-sm xl:text-base 2xl:text-lg font-normal leading-relaxed max-w-2xl xl:max-w-3xl mx-auto pt-0.5">
             Core technical and creative competencies developed over years of professional industry experience.
           </p>
 
         </ScrollReveal>
 
         {/* CLEAN MINIMAL 6 SKILL CARDS GRID WITH SCROLL REVEAL */}
-        <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6">
+        <div className="max-w-5xl xl:max-w-6xl 2xl:max-w-7xl 3xl:max-w-[1700px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6 xl:gap-8">
           {SKILLS.map((skill, index) => (
             <ScrollReveal key={skill.id} delay={index * 100}>
-              <div className="rounded-2xl bg-[#0a0a0c] border border-white/10 hover:border-[#cfa856]/70 p-6 transition-all duration-300 shadow-xl hover:shadow-[#cfa856]/10 space-y-2.5 h-full">
+              <div className="rounded-2xl bg-[#0a0a0c] border border-white/10 hover:border-[#cfa856]/70 p-6 xl:p-8 2xl:p-9 transition-all duration-300 shadow-xl hover:shadow-[#cfa856]/10 space-y-2.5 xl:space-y-3 h-full">
                 {/* Skill Title with Checkmark */}
-                <div className="flex items-start gap-3">
-                  <CheckCircle2 className="w-5 h-5 text-[#cfa856] shrink-0 mt-0.5" />
+                <div className="flex items-start gap-3 xl:gap-4">
+                  <CheckCircle2 className="w-5 h-5 xl:w-6 xl:h-6 text-[#cfa856] shrink-0 mt-0.5" />
                   <div>
-                    <h3 className="text-base sm:text-lg font-bold font-sans text-white leading-snug">
+                    <h3 className="text-base sm:text-lg xl:text-xl 2xl:text-2xl font-bold font-sans text-white leading-snug">
                       {skill.title}
                     </h3>
                     {skill.subtitle && (
-                      <div className="text-xs font-mono text-[#cfa856] pt-0.5">
+                      <div className="text-xs xl:text-sm font-mono text-[#cfa856] pt-0.5">
                         {skill.subtitle}
                       </div>
                     )}
@@ -91,7 +91,7 @@ export default function SkillSection() {
                 </div>
 
                 {/* Clean 2-Line Description */}
-                <p className="text-xs sm:text-sm text-slate-300 leading-relaxed font-normal pl-8">
+                <p className="text-xs sm:text-sm xl:text-base 2xl:text-lg text-slate-300 leading-relaxed font-normal pl-8 xl:pl-10">
                   {skill.description}
                 </p>
               </div>
