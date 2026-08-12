@@ -34,47 +34,47 @@ export default function EducationSection() {
       <div className="w-full px-5 sm:px-10 lg:px-14 xl:px-16 2xl:px-24 3xl:px-32 relative z-10">
         
         {/* Section Header */}
-        <ScrollReveal className="text-center max-w-4xl xl:max-w-5xl 2xl:max-w-6xl mx-auto mb-12 sm:mb-16 xl:mb-20 space-y-2.5 xl:space-y-4">
+        <ScrollReveal className="text-center max-w-4xl 2xl:max-w-6xl mx-auto mb-12 sm:mb-16 2xl:mb-20 space-y-2.5 2xl:space-y-4">
           
           {/* Top Label */}
-          <div className="text-[11px] xl:text-xs 2xl:text-sm font-mono tracking-[0.3em] text-[#cfa856] uppercase font-bold flex items-center justify-center gap-2">
-            <GraduationCap className="w-4 h-4 xl:w-5 xl:h-5" />
+          <div className="text-[11px] 2xl:text-sm font-mono tracking-[0.3em] text-[#cfa856] uppercase font-bold flex items-center justify-center gap-2">
+            <GraduationCap className="w-4 h-4 2xl:w-5 2xl:h-5" />
             <span>ACADEMIC BACKGROUND</span>
           </div>
 
           {/* Headline on Single Line */}
-          <h2 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-sans font-black tracking-tight text-white uppercase leading-none whitespace-nowrap">
+          <h2 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl font-sans font-black tracking-tight text-white uppercase leading-none whitespace-nowrap">
             EDUCATION &nbsp;<span className="text-[#cfa856]">& QUALIFICATIONS</span>
           </h2>
 
           {/* Underline Accent */}
-          <div className="w-12 xl:w-16 h-[2px] xl:h-[3px] bg-[#cfa856] mx-auto my-2 xl:my-4" />
+          <div className="w-12 2xl:w-16 h-[2px] 2xl:h-[3px] bg-[#cfa856] mx-auto my-2 2xl:my-4" />
 
         </ScrollReveal>
 
         {/* CLEAN LINE-BY-LINE LIST WITH SCROLL REVEAL */}
-        <div className="max-w-3xl xl:max-w-4xl 2xl:max-w-5xl 3xl:max-w-[1400px] mx-auto space-y-6 sm:space-y-8 xl:space-y-10">
+        <div className="max-w-3xl 2xl:max-w-5xl 3xl:max-w-[1400px] mx-auto space-y-6 sm:space-y-8 2xl:space-y-10">
           {EDUCATION_ITEMS.map((item, index) => (
             <ScrollReveal key={item.id} delay={index * 120}>
-              <div className="flex items-start gap-4 sm:gap-6 xl:gap-8 border-b border-white/10 pb-6 xl:pb-8 last:border-b-0">
+              <div className="flex items-start gap-4 sm:gap-6 2xl:gap-8 border-b border-white/10 pb-6 2xl:pb-8 last:border-b-0">
                 {/* Gold Graduation Icon */}
-                <div className="w-11 h-11 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 rounded-full bg-[#cfa856]/10 border border-[#cfa856]/40 flex items-center justify-center text-[#cfa856] shrink-0 mt-0.5 shadow-lg">
-                  <GraduationCap className="w-5 h-5 xl:w-7 xl:h-7 2xl:w-8 2xl:h-8" />
+                <div className="w-11 h-11 2xl:w-16 2xl:h-16 rounded-full bg-[#cfa856]/10 border border-[#cfa856]/40 flex items-center justify-center text-[#cfa856] shrink-0 mt-0.5 shadow-lg">
+                  <GraduationCap className="w-5 h-5 2xl:w-8 2xl:h-8" />
                 </div>
 
                 {/* Content Details */}
-                <div className="space-y-1.5 xl:space-y-2 flex-1">
-                  <div className="flex flex-wrap items-center gap-2 sm:gap-3 xl:gap-4">
-                    <h3 className="text-lg sm:text-xl xl:text-2xl 2xl:text-3xl font-bold font-sans text-white uppercase tracking-wide">
+                <div className="space-y-1.5 2xl:space-y-2 flex-1">
+                  <div className="flex flex-wrap items-center gap-2 sm:gap-3 2xl:gap-4">
+                    <h3 className="text-lg sm:text-xl 2xl:text-3xl font-bold font-sans text-white uppercase tracking-wide">
                       {item.degree}
                     </h3>
-                    <span className="text-xs sm:text-sm xl:text-base font-mono text-[#cfa856] font-semibold flex items-center gap-1.5">
-                      <Award className="w-3.5 h-3.5 xl:w-4 xl:h-4 text-[#cfa856]" />
+                    <span className="text-xs sm:text-sm font-mono text-[#cfa856] font-semibold flex items-center gap-1.5">
+                      <Award className="w-3.5 h-3.5 2xl:w-4 2xl:h-4 text-[#cfa856]" />
                       {item.institution}
                     </span>
                   </div>
 
-                  <p className="text-xs sm:text-sm xl:text-base 2xl:text-lg text-slate-300 leading-relaxed font-normal pt-0.5">
+                  <p className="text-xs sm:text-sm 2xl:text-lg text-slate-300 leading-relaxed font-normal pt-0.5">
                     {item.description}
                   </p>
                 </div>

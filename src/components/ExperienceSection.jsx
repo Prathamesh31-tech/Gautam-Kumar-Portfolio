@@ -87,76 +87,76 @@ export default function ExperienceSection() {
       <div className="w-full px-5 sm:px-10 lg:px-14 xl:px-16 2xl:px-24 3xl:px-32 relative z-10">
         
         {/* Section Header with Single Line Headline */}
-        <ScrollReveal className="text-center max-w-4xl xl:max-w-5xl 2xl:max-w-6xl mx-auto mb-12 sm:mb-16 xl:mb-20 space-y-2.5 xl:space-y-4">
+        <ScrollReveal className="text-center max-w-4xl 2xl:max-w-6xl mx-auto mb-12 sm:mb-16 2xl:mb-20 space-y-2.5 2xl:space-y-4">
           
           {/* Top Label */}
-          <div className="text-[11px] xl:text-xs 2xl:text-sm font-mono tracking-[0.3em] text-[#cfa856] uppercase font-bold flex items-center justify-center gap-2">
-            <Award className="w-3.5 h-3.5 xl:w-4 xl:h-4" />
+          <div className="text-[11px] 2xl:text-sm font-mono tracking-[0.3em] text-[#cfa856] uppercase font-bold flex items-center justify-center gap-2">
+            <Award className="w-3.5 h-3.5 2xl:w-4 2xl:h-4" />
             <span>CAREER HISTORY</span>
           </div>
 
           {/* Headline on Single Line */}
-          <h2 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-sans font-black tracking-tight text-white uppercase leading-none whitespace-nowrap">
+          <h2 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl font-sans font-black tracking-tight text-white uppercase leading-none whitespace-nowrap">
             WORK EXPERIENCE &nbsp;<span className="text-[#cfa856]">& LEADERSHIP</span>
           </h2>
 
           {/* Underline Accent */}
-          <div className="w-12 xl:w-16 h-[2px] xl:h-[3px] bg-[#cfa856] mx-auto my-2 xl:my-4" />
+          <div className="w-12 2xl:w-16 h-[2px] 2xl:h-[3px] bg-[#cfa856] mx-auto my-2 2xl:my-4" />
 
           {/* Subtitle Paragraph */}
-          <p className="text-slate-300 text-xs sm:text-sm xl:text-base 2xl:text-lg font-normal leading-relaxed max-w-2xl xl:max-w-3xl mx-auto pt-0.5">
+          <p className="text-slate-300 text-xs sm:text-sm 2xl:text-lg font-normal leading-relaxed max-w-2xl 2xl:max-w-3xl mx-auto pt-0.5">
             Over 9+ years of hands-on experience directing visual storytelling, managing creative productions, and delivering cinematic content.
           </p>
 
         </ScrollReveal>
 
         {/* FULL WIDTH CARDS LIST WITH SCROLL REVEAL */}
-        <div className="max-w-5xl xl:max-w-6xl 2xl:max-w-7xl 3xl:max-w-[1700px] mx-auto space-y-6 sm:space-y-8 xl:space-y-10">
+        <div className="max-w-5xl 2xl:max-w-7xl 3xl:max-w-[1700px] mx-auto space-y-6 sm:space-y-8 2xl:space-y-10">
           {EXPERIENCES.map((exp, index) => (
             <ScrollReveal key={exp.id} delay={index * 120}>
-              <div className="w-full rounded-2xl bg-[#0a0a0c] border border-white/10 hover:border-[#cfa856]/70 p-6 sm:p-8 xl:p-10 transition-all duration-300 shadow-2xl hover:shadow-[#cfa856]/10 space-y-4 xl:space-y-6">
+              <div className="w-full rounded-2xl bg-[#0a0a0c] border border-white/10 hover:border-[#cfa856]/70 p-6 sm:p-8 2xl:p-10 transition-all duration-300 shadow-2xl hover:shadow-[#cfa856]/10 space-y-4 2xl:space-y-6">
                 
                 {/* Card Header: Role, Period Badge, Company & Location */}
-                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-white/10 pb-4 xl:pb-6">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-white/10 pb-4 2xl:pb-6">
                   
-                  <div className="space-y-1 xl:space-y-2">
-                    <div className="flex flex-wrap items-center gap-3 xl:gap-4">
-                      <h3 className="text-xl sm:text-2xl xl:text-3xl 2xl:text-4xl font-black font-sans text-white uppercase tracking-wide">
+                  <div className="space-y-1 2xl:space-y-2">
+                    <div className="flex flex-wrap items-center gap-3 2xl:gap-4">
+                      <h3 className="text-xl sm:text-2xl 2xl:text-4xl font-black font-sans text-white uppercase tracking-wide">
                         {exp.role}
                       </h3>
 
                       {exp.isCurrent && (
-                        <span className="inline-flex items-center gap-1 px-2.5 xl:px-3.5 py-0.5 xl:py-1 rounded-full bg-emerald-500/20 border border-emerald-500/50 text-emerald-400 text-[10px] xl:text-xs font-mono font-bold tracking-widest uppercase">
-                          <Sparkles className="w-3 h-3 xl:w-3.5 xl:h-3.5" />
+                        <span className="inline-flex items-center gap-1 px-2.5 2xl:px-3.5 py-0.5 2xl:py-1 rounded-full bg-emerald-500/20 border border-emerald-500/50 text-emerald-400 text-[10px] 2xl:text-xs font-mono font-bold tracking-widest uppercase">
+                          <Sparkles className="w-3 h-3 2xl:w-3.5 2xl:h-3.5" />
                           <span>PRESENT</span>
                         </span>
                       )}
                     </div>
 
-                    <div className="text-xs sm:text-sm xl:text-base 2xl:text-lg font-mono text-[#cfa856] font-semibold flex items-center gap-2 pt-0.5">
-                      <Building2 className="w-4 h-4 xl:w-5 xl:h-5 text-[#cfa856]" />
+                    <div className="text-xs sm:text-sm 2xl:text-lg font-mono text-[#cfa856] font-semibold flex items-center gap-2 pt-0.5">
+                      <Building2 className="w-4 h-4 2xl:w-5 2xl:h-5 text-[#cfa856]" />
                       <span>{exp.company}</span>
                       <span className="text-slate-500">•</span>
                       <span className="text-slate-400 font-normal flex items-center gap-1">
-                        <MapPin className="w-3 h-3 xl:w-4 xl:h-4 text-slate-400" />
+                        <MapPin className="w-3 h-3 2xl:w-4 2xl:h-4 text-slate-400" />
                         {exp.location}
                       </span>
                     </div>
                   </div>
 
                   {/* Period Badge */}
-                  <div className="self-start sm:self-center inline-flex items-center gap-1.5 px-4 xl:px-5 py-1.5 xl:py-2 rounded-full bg-[#cfa856]/10 border border-[#cfa856]/40 text-[#cfa856] text-xs xl:text-sm font-mono font-bold uppercase tracking-wider shrink-0">
-                    <Calendar className="w-3.5 h-3.5 xl:w-4 xl:h-4" />
+                  <div className="self-start sm:self-center inline-flex items-center gap-1.5 px-4 2xl:px-5 py-1.5 2xl:py-2 rounded-full bg-[#cfa856]/10 border border-[#cfa856]/40 text-[#cfa856] text-xs 2xl:text-sm font-mono font-bold uppercase tracking-wider shrink-0">
+                    <Calendar className="w-3.5 h-3.5 2xl:w-4 2xl:h-4" />
                     <span>{exp.period}</span>
                   </div>
 
                 </div>
 
                 {/* Vertical Bullet Points List (One below another) */}
-                <div className="space-y-3 xl:space-y-4 pt-1">
+                <div className="space-y-3 2xl:space-y-4 pt-1">
                   {exp.highlights.map((point, idx) => (
-                    <div key={idx} className="flex items-start gap-3 xl:gap-4 text-xs sm:text-sm xl:text-base 2xl:text-lg text-slate-200 leading-relaxed">
-                      <CheckCircle2 className="w-4 h-4 xl:w-5 xl:h-5 text-[#cfa856] shrink-0 mt-0.5" />
+                    <div key={idx} className="flex items-start gap-3 2xl:gap-4 text-xs sm:text-sm 2xl:text-lg text-slate-200 leading-relaxed">
+                      <CheckCircle2 className="w-4 h-4 2xl:w-5 2xl:h-5 text-[#cfa856] shrink-0 mt-0.5" />
                       <span className="font-normal text-slate-300">{point}</span>
                     </div>
                   ))}

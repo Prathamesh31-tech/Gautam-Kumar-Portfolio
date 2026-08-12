@@ -217,31 +217,31 @@ export default function MyWorkSection() {
       <div className="w-full px-5 sm:px-10 lg:px-14 xl:px-16 2xl:px-24 3xl:px-32 relative z-10">
         
         {/* Section Header with ScrollReveal */}
-        <ScrollReveal className="text-center max-w-3xl xl:max-w-4xl 2xl:max-w-5xl mx-auto mb-10 sm:mb-12 xl:mb-16 space-y-2.5 xl:space-y-4">
+        <ScrollReveal className="text-center max-w-3xl 2xl:max-w-5xl mx-auto mb-10 sm:mb-12 2xl:mb-16 space-y-2.5 2xl:space-y-4">
           
           {/* Top Label */}
-          <div className="text-[11px] xl:text-xs 2xl:text-sm font-mono tracking-[0.3em] text-[#cfa856] uppercase font-bold">
+          <div className="text-[11px] 2xl:text-sm font-mono tracking-[0.3em] text-[#cfa856] uppercase font-bold">
             MY WORK
           </div>
 
           {/* Headline: WHAT I SEE. WHAT I FEEL. */}
-          <h2 className="text-2xl sm:text-4xl md:text-5xl xl:text-6xl 2xl:text-7xl font-sans font-black tracking-tight text-white uppercase leading-tight">
+          <h2 className="text-2xl sm:text-4xl md:text-5xl 2xl:text-7xl font-sans font-black tracking-tight text-white uppercase leading-tight">
             WHAT I SEE.&nbsp;
             <span className="text-[#cfa856]">WHAT I FEEL.</span>
           </h2>
 
           {/* Underline Accent */}
-          <div className="w-12 xl:w-16 h-[2px] xl:h-[3px] bg-[#cfa856] mx-auto my-2 xl:my-4" />
+          <div className="w-12 2xl:w-16 h-[2px] 2xl:h-[3px] bg-[#cfa856] mx-auto my-2 2xl:my-4" />
 
           {/* Subtitle Paragraph */}
-          <p className="text-slate-300 text-xs sm:text-sm xl:text-base 2xl:text-lg font-normal leading-relaxed max-w-2xl xl:max-w-3xl mx-auto pt-0.5">
+          <p className="text-slate-300 text-xs sm:text-sm 2xl:text-lg font-normal leading-relaxed max-w-2xl 2xl:max-w-3xl mx-auto pt-0.5">
             Turning real moments into memories through my lens.
           </p>
 
         </ScrollReveal>
 
         {/* 5 Column Wide Grid across Full Screen Width with ScrollReveal */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 xl:gap-7">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 xl:gap-7 2xl:gap-9">
           {WORK_CATEGORIES.map((category, index) => {
             const IconComponent = category.icon;
             return (
@@ -282,21 +282,21 @@ export default function MyWorkSection() {
                     </div>
 
                     {/* Card Body Content */}
-                    <div className="p-5 xl:p-6 2xl:p-7 pt-3 xl:pt-4 space-y-2 xl:space-y-3">
-                      <h3 className="font-sans font-black tracking-wider text-white group-hover:text-[#cfa856] transition-colors text-base sm:text-lg xl:text-xl 2xl:text-2xl uppercase leading-snug">
+                    <div className="p-5 2xl:p-7 pt-3 2xl:pt-4 space-y-2 2xl:space-y-3">
+                      <h3 className="font-sans font-black tracking-wider text-white group-hover:text-[#cfa856] transition-colors text-base sm:text-lg 2xl:text-2xl uppercase leading-snug">
                         {category.title}
                       </h3>
-                      <p className="text-slate-400 text-xs sm:text-sm xl:text-base 2xl:text-lg leading-relaxed line-clamp-3 font-normal">
+                      <p className="text-slate-400 text-xs sm:text-sm 2xl:text-lg leading-relaxed line-clamp-3 font-normal">
                         {category.description}
                       </p>
                     </div>
                   </div>
 
                   {/* VIEW WORK Footer Link */}
-                  <div className="p-5 xl:p-6 2xl:p-7 pt-0">
-                    <div className="text-xs xl:text-sm 2xl:text-base font-bold font-mono text-[#cfa856] uppercase tracking-widest flex items-center gap-1.5 group-hover:translate-x-1 transition-transform">
+                  <div className="p-5 2xl:p-7 pt-0">
+                    <div className="text-xs 2xl:text-base font-bold font-mono text-[#cfa856] uppercase tracking-widest flex items-center gap-1.5 group-hover:translate-x-1 transition-transform">
                       <span>VIEW WORK</span>
-                      <ArrowRight className="w-4 h-4 xl:w-5 xl:h-5" />
+                      <ArrowRight className="w-4 h-4 2xl:w-5 2xl:h-5" />
                     </div>
                   </div>
 
