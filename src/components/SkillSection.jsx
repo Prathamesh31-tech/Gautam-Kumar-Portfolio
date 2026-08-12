@@ -55,8 +55,8 @@ export default function SkillSection() {
             <span>MY SKILLS</span>
           </div>
 
-          {/* Headline on Single Line */}
-          <h2 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl font-sans font-black tracking-tight text-white uppercase leading-none whitespace-nowrap">
+          {/* Headline */}
+          <h2 className="text-2xl sm:text-4xl md:text-5xl 2xl:text-6xl font-sans font-black tracking-tight text-white uppercase leading-tight max-w-4xl mx-auto">
             SKILLS &nbsp;<span className="text-[#cfa856]">& EXPERTISE</span>
           </h2>
 

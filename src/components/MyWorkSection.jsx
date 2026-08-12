@@ -225,7 +225,7 @@ export default function MyWorkSection() {
           </div>
 
           {/* Headline: WHAT I SEE. WHAT I FEEL. */}
-          <h2 className="text-2xl sm:text-4xl md:text-5xl 2xl:text-7xl font-sans font-black tracking-tight text-white uppercase leading-tight">
+          <h2 className="text-2xl sm:text-4xl md:text-5xl 2xl:text-6xl font-sans font-black tracking-tight text-white uppercase leading-tight max-w-4xl mx-auto">
             WHAT I SEE.&nbsp;
             <span className="text-[#cfa856]">WHAT I FEEL.</span>
           </h2>
