@@ -105,7 +105,7 @@ export default function HeroSection({ onOpenShowreel }) {
             {/* Stat 1 */}
             <div className="space-y-0.5 sm:space-y-1 2xl:space-y-2">
               <div className="font-serif text-2xl sm:text-3xl lg:text-3xl xl:text-4xl 2xl:text-6xl 3xl:text-7xl 4xl:text-8xl font-extrabold text-[#cfa856]">
-                50+
+                100+
               </div>
               <div className="text-[9px] sm:text-[10px] lg:text-[11px] xl:text-xs 2xl:text-base 3xl:text-xl 4xl:text-2xl font-bold text-slate-400 tracking-[0.15em] uppercase">
                 PROJECTS
@@ -129,7 +129,7 @@ export default function HeroSection({ onOpenShowreel }) {
             {/* Stat 3 */}
             <div className="space-y-0.5 sm:space-y-1 2xl:space-y-2">
               <div className="font-serif text-2xl sm:text-3xl lg:text-3xl xl:text-4xl 2xl:text-6xl 3xl:text-7xl 4xl:text-8xl font-extrabold text-[#cfa856]">
-                5+
+                8+
               </div>
               <div className="text-[9px] sm:text-[10px] lg:text-[11px] xl:text-xs 2xl:text-base 3xl:text-xl 4xl:text-2xl font-bold text-slate-400 tracking-[0.15em] uppercase">
                 YEARS EXPERIENCE
