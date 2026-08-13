@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Send, MessageSquare, CheckCircle2 } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, MessageSquare, CheckCircle2, Instagram, Facebook, Linkedin, Share2 } from 'lucide-react';
 import ScrollReveal from './ScrollReveal';
 
 export default function ContactSection() {
@@ -133,6 +133,49 @@ export default function ContactSection() {
                       gkr9892@gmail.com
                     </a>
                   </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Social Media Links */}
+            <div className="flex items-start gap-4 2xl:gap-5">
+              <div className="w-11 h-11 2xl:w-16 2xl:h-16 rounded-full bg-[#cfa856]/10 border border-[#cfa856]/40 flex items-center justify-center text-[#cfa856] shrink-0 mt-0.5 shadow-lg">
+                <Share2 className="w-5 h-5 2xl:w-7 2xl:h-7" />
+              </div>
+              <div className="space-y-2">
+                <div className="text-[11px] 2xl:text-sm font-mono text-[#cfa856] uppercase tracking-widest font-bold">
+                  SOCIAL MEDIA PROFILES
+                </div>
+                <div className="flex items-center gap-3 pt-1">
+                  <a
+                    href="https://www.instagram.com/gautamlaheriofficial?utm_source=qr"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="p-2.5 rounded-full bg-white/5 border border-white/10 text-slate-200 hover:text-black hover:bg-[#cfa856] hover:border-[#cfa856] transition-all transform hover:scale-110 shadow-lg"
+                    title="Instagram (@gautamlaheriofficial)"
+                  >
+                    <Instagram className="w-4 h-4 2xl:w-5 2xl:h-5" />
+                  </a>
+
+                  <a
+                    href="https://www.facebook.com/share/1ChVuBZNXF/?mibextid=wwXIfr"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="p-2.5 rounded-full bg-white/5 border border-white/10 text-slate-200 hover:text-black hover:bg-[#cfa856] hover:border-[#cfa856] transition-all transform hover:scale-110 shadow-lg"
+                    title="Facebook"
+                  >
+                    <Facebook className="w-4 h-4 2xl:w-5 2xl:h-5" />
+                  </a>
+
+                  <a
+                    href="https://www.linkedin.com/in/gautam-kumar-695b7a279?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="p-2.5 rounded-full bg-white/5 border border-white/10 text-slate-200 hover:text-black hover:bg-[#cfa856] hover:border-[#cfa856] transition-all transform hover:scale-110 shadow-lg"
+                    title="LinkedIn"
+                  >
+                    <Linkedin className="w-4 h-4 2xl:w-5 2xl:h-5" />
+                  </a>
                 </div>
               </div>
             </div>

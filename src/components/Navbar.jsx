@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Instagram, Linkedin, Phone, Menu, X } from 'lucide-react';
+import { Instagram, Facebook, Linkedin, Phone, Menu, X } from 'lucide-react';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -94,17 +94,27 @@ export default function Navbar() {
           {/* Social Icons */}
           <div className="flex items-center gap-3.5 sm:gap-5">
             <a 
-              href="https://instagram.com" 
+              href="https://www.instagram.com/gautamlaheriofficial?utm_source=qr" 
               target="_blank" 
               rel="noreferrer" 
               className="text-slate-300 hover:text-[#cfa856] transition-all transform hover:scale-110" 
-              title="Instagram"
+              title="Instagram (@gautamlaheriofficial)"
             >
               <Instagram className="w-4 h-4 sm:w-5 sm:h-5" />
             </a>
 
             <a 
-              href="https://linkedin.com" 
+              href="https://www.facebook.com/share/1ChVuBZNXF/?mibextid=wwXIfr" 
+              target="_blank" 
+              rel="noreferrer" 
+              className="text-slate-300 hover:text-[#cfa856] transition-all transform hover:scale-110" 
+              title="Facebook"
+            >
+              <Facebook className="w-4 h-4 sm:w-5 sm:h-5" />
+            </a>
+
+            <a 
+              href="https://www.linkedin.com/in/gautam-kumar-695b7a279?utm_source=share_via&utm_content=profile&utm_medium=member_ios" 
               target="_blank" 
               rel="noreferrer" 
               className="text-slate-300 hover:text-[#cfa856] transition-all transform hover:scale-110" 
