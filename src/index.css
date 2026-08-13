@@ -93,18 +93,36 @@ html.no-scroll, body.no-scroll {
   font-family: 'Great Vibes', 'Alex Brush', 'Dancing Script', cursive;
 }
 
-/* DYNAMIC RESPONSIVE VERTICAL SCALING FOR 27-INCH & TALL MONITORS */
-@media (min-height: 850px) and (min-width: 1280px) {
-  .hero-dynamic-space {
-    padding-top: clamp(0.5rem, 2.5vh, 2.5rem);
-    padding-bottom: clamp(0.5rem, 2.5vh, 2.5rem);
+/* DYNAMIC RESPONSIVE VERTICAL SCALING FOR LAPTOPS VS 27-INCH & TALL MONITORS */
+
+/* Short / Laptop Viewports (Height <= 780px): Compact vertical spacing to guarantee buttons & stats fit 100% without cut-off */
+@media (max-height: 780px) {
+  .hero-dynamic-space > * + * {
+    margin-top: 0.6rem !important;
+  }
+  .hero-buttons-container {
+    padding-top: 0.4rem !important;
+  }
+  .hero-stats-container {
+    padding-top: 0.6rem !important;
   }
 }
 
-@media (min-height: 1050px) and (min-width: 1550px) {
+/* Tall / 27-inch / 4K Displays (Height >= 900px & Width >= 1400px): Expand vertical spacing dynamically */
+@media (min-height: 900px) and (min-width: 1400px) {
   .hero-dynamic-space {
-    padding-top: clamp(1rem, 4vh, 4.5rem);
-    padding-bottom: clamp(1rem, 4vh, 4.5rem);
+    padding-top: clamp(1rem, 3vh, 3rem);
+    padding-bottom: clamp(1rem, 3vh, 3rem);
+  }
+  .hero-dynamic-space > * + * {
+    margin-top: clamp(1.1rem, 2.2vh, 2.5rem) !important;
   }
 }
+
+@media (min-height: 1100px) and (min-width: 1800px) {
+  .hero-dynamic-space > * + * {
+    margin-top: clamp(1.5rem, 3vh, 3.5rem) !important;
+  }
+}
+
 
