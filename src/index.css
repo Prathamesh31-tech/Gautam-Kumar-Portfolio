@@ -95,16 +95,16 @@ html.no-scroll, body.no-scroll {
 
 /* DYNAMIC RESPONSIVE VERTICAL SCALING FOR LAPTOPS VS 27-INCH & TALL MONITORS */
 
-/* Short / Laptop Viewports (Height <= 780px): Compact vertical spacing to guarantee buttons & stats fit 100% without cut-off */
-@media (max-height: 780px) {
+/* Short / Laptop Viewports (Height <= 850px): Compact vertical spacing to guarantee buttons & stats fit 100% without cut-off */
+@media (max-height: 850px) {
   .hero-dynamic-space > * + * {
-    margin-top: 0.6rem !important;
+    margin-top: 0.5rem !important;
   }
   .hero-buttons-container {
-    padding-top: 0.4rem !important;
+    padding-top: 0.35rem !important;
   }
   .hero-stats-container {
-    padding-top: 0.6rem !important;
+    padding-top: 0.5rem !important;
   }
 }
 

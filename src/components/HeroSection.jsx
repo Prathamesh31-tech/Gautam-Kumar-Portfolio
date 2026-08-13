@@ -28,7 +28,7 @@ export default function HeroSection({ onOpenShowreel }) {
   }, []);
 
   return (
-    <section id="home" className="relative min-h-screen h-[100vh] min-h-[100vh] w-full flex items-center justify-center bg-black overflow-hidden select-none">
+    <section id="home" className="relative min-h-screen w-full flex items-center justify-center bg-black select-none">
       
       {/* Background Image Layer */}
       <div className="absolute inset-0 z-0 h-full w-full pointer-events-none">
@@ -43,7 +43,7 @@ export default function HeroSection({ onOpenShowreel }) {
       </div>
 
       {/* Main Content Container */}
-      <div className="relative z-10 max-w-7xl lg:max-w-[1500px] xl:max-w-[1700px] 2xl:max-w-[2000px] 3xl:max-w-[2400px] 4xl:max-w-[2800px] mx-auto px-5 sm:px-10 lg:px-12 xl:px-14 2xl:px-20 3xl:px-24 4xl:px-28 w-full h-full flex flex-col justify-between py-4 sm:py-6 pt-16 sm:pt-20 lg:pt-20 xl:pt-20 2xl:pt-32 3xl:pt-40 4xl:pt-48 pb-5 lg:pb-8 2xl:pb-12">
+      <div className="relative z-10 max-w-7xl lg:max-w-[1500px] xl:max-w-[1700px] 2xl:max-w-[2000px] 3xl:max-w-[2400px] 4xl:max-w-[2800px] mx-auto px-5 sm:px-10 lg:px-12 xl:px-14 2xl:px-20 3xl:px-24 4xl:px-28 w-full flex flex-col justify-center pt-24 sm:pt-28 lg:pt-24 xl:pt-28 2xl:pt-36 pb-12 sm:pb-16 lg:pb-16 2xl:pb-20">
         
         {/* Copy & Title Area - Dynamically scalable spacing and vertical proportions for all display sizes */}
         <div className="max-w-2xl lg:max-w-3xl xl:max-w-4xl 2xl:max-w-5xl 3xl:max-w-6xl 4xl:max-w-7xl pt-1 sm:pt-2 space-y-2 sm:space-y-3 lg:space-y-3.5 2xl:space-y-7 3xl:space-y-10 4xl:space-y-12 text-left my-auto hero-dynamic-space">
