@@ -92,3 +92,19 @@ html.no-scroll, body.no-scroll {
 .font-cursive {
   font-family: 'Great Vibes', 'Alex Brush', 'Dancing Script', cursive;
 }
+
+/* DYNAMIC RESPONSIVE VERTICAL SCALING FOR 27-INCH & TALL MONITORS */
+@media (min-height: 850px) and (min-width: 1280px) {
+  .hero-dynamic-space {
+    padding-top: clamp(0.5rem, 2.5vh, 2.5rem);
+    padding-bottom: clamp(0.5rem, 2.5vh, 2.5rem);
+  }
+}
+
+@media (min-height: 1050px) and (min-width: 1550px) {
+  .hero-dynamic-space {
+    padding-top: clamp(1rem, 4vh, 4.5rem);
+    padding-bottom: clamp(1rem, 4vh, 4.5rem);
+  }
+}
+
