@@ -1,38 +1,35 @@
 import React from 'react';
-import { Sparkles, CheckCircle2 } from 'lucide-react';
+import { Sparkles, Camera, Video, Clapperboard, Users, CheckCircle2 } from 'lucide-react';
 import ScrollReveal from './ScrollReveal';
 
 const SKILLS = [
   {
-    id: 1,
-    title: 'Videography & Cinematography',
-    description: 'Expertise in operating professional cinema cameras, dynamic gimbal movements, and capturing high-definition cinematic visual stories.'
+    id: 'photo-video',
+    category: 'PHOTO / VIDEO',
+    icon: Camera,
+    items: ['Photoshop', 'Lightroom', 'Premiere Pro', 'DaVinci Resolve'],
+    description: 'Advanced video editing, color grading, motion cuts, and high-end RAW photo retouching using industry-standard tools.'
   },
   {
-    id: 2,
-    title: 'Lighting & Composition',
-    description: 'Proficient in studio and outdoor natural lighting setups, 3-point illumination, contrast management, and aesthetic frame composition.'
+    id: 'production',
+    category: 'PRODUCTION',
+    icon: Video,
+    items: ['Videography', 'Cinematography', 'Lighting', 'Composition'],
+    description: 'Expertise in operating professional cameras, studio & natural lighting setups, framing, and dynamic motion shot execution.'
   },
   {
-    id: 3,
-    title: 'Photo & Video Editing',
-    subtitle: '(Adobe Photoshop, Lightroom, Premiere Pro, DaVinci Resolve)',
-    description: 'Skilled in advanced video editing, color grading, motion cuts, and high-end RAW photo retouching using industry-standard software.'
+    id: 'creative',
+    category: 'CREATIVE',
+    icon: Clapperboard,
+    items: ['Creative Direction', 'Storyboarding'],
+    description: 'Translating concepts into structured storyboards, mood boards, shot execution plans, and artistic visual direction.'
   },
   {
-    id: 4,
-    title: 'Creative Direction & Storyboarding',
-    description: 'Capability to translate creative concepts into structured storyboards, mood boards, shot execution plans, and visual direction.'
-  },
-  {
-    id: 5,
-    title: 'Client & Team Collaboration',
-    description: 'Strong leadership in managing on-set production teams, directing subjects, and working closely with clients to fulfill visual requirements.'
-  },
-  {
-    id: 6,
-    title: 'Basic Knowledge of Computer',
-    description: 'Sound operational knowledge of computer systems, media asset organization, data backups, and digital workflow software.'
+    id: 'collaboration',
+    category: 'COLLABORATION',
+    icon: Users,
+    items: ['Client & Team Collaboration'],
+    description: 'Leading production teams, managing client expectations, on-set communication, and seamless project execution.'
   }
 ];
 
@@ -70,33 +67,50 @@ export default function SkillSection() {
 
         </ScrollReveal>
 
-        {/* CLEAN MINIMAL 6 SKILL CARDS GRID WITH SCROLL REVEAL */}
-        <div className="max-w-5xl 2xl:max-w-7xl 3xl:max-w-[1700px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6 2xl:gap-8">
-          {SKILLS.map((skill, index) => (
-            <ScrollReveal key={skill.id} delay={index * 100}>
-              <div className="rounded-2xl bg-[#0a0a0c] border border-white/10 hover:border-[#cfa856]/70 p-6 2xl:p-9 transition-all duration-300 shadow-xl hover:shadow-[#cfa856]/10 space-y-2.5 2xl:space-y-3 h-full">
-                {/* Skill Title with Checkmark */}
-                <div className="flex items-start gap-3 2xl:gap-4">
-                  <CheckCircle2 className="w-5 h-5 2xl:w-6 2xl:h-6 text-[#cfa856] shrink-0 mt-0.5" />
-                  <div>
-                    <h3 className="text-base sm:text-lg 2xl:text-2xl font-bold font-sans text-white leading-snug">
-                      {skill.title}
-                    </h3>
-                    {skill.subtitle && (
-                      <div className="text-xs 2xl:text-sm font-mono text-[#cfa856] pt-0.5">
-                        {skill.subtitle}
+        {/* 4 SKILL CATEGORIES GRID WITH SCROLL REVEAL */}
+        <div className="max-w-5xl 2xl:max-w-7xl 3xl:max-w-[1700px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 2xl:gap-8">
+          {SKILLS.map((skill, index) => {
+            const IconComponent = skill.icon;
+            return (
+              <ScrollReveal key={skill.id} delay={index * 100}>
+                <div className="rounded-2xl bg-[#0a0a0c] border border-white/10 hover:border-[#cfa856]/70 p-6 sm:p-8 2xl:p-10 transition-all duration-300 shadow-xl hover:shadow-[#cfa856]/15 space-y-4 2xl:space-y-5 h-full flex flex-col justify-between group">
+                  
+                  <div className="space-y-4">
+                    {/* Category Title & Icon */}
+                    <div className="flex items-center justify-between border-b border-white/10 pb-4">
+                      <div className="flex items-center gap-3">
+                        <div className="w-10 h-10 2xl:w-12 2xl:h-12 rounded-xl bg-black/80 border border-[#cfa856]/40 flex items-center justify-center text-[#cfa856] group-hover:bg-[#cfa856] group-hover:text-black transition-all">
+                          <IconComponent className="w-5 h-5 2xl:w-6 2xl:h-6" />
+                        </div>
+                        <h3 className="text-lg sm:text-xl 2xl:text-2xl font-black font-sans text-white tracking-wider uppercase group-hover:text-[#cfa856] transition-colors">
+                          {skill.category}
+                        </h3>
                       </div>
-                    )}
-                  </div>
-                </div>
+                      <CheckCircle2 className="w-5 h-5 text-[#cfa856]/60 group-hover:text-[#cfa856] transition-colors" />
+                    </div>
 
-                {/* Clean 2-Line Description */}
-                <p className="text-xs sm:text-sm 2xl:text-lg text-slate-300 leading-relaxed font-normal pl-8 2xl:pl-10">
-                  {skill.description}
-                </p>
-              </div>
-            </ScrollReveal>
-          ))}
+                    {/* Skill Pill Badges */}
+                    <div className="flex flex-wrap gap-2 pt-1">
+                      {skill.items.map((item, itemIdx) => (
+                        <span
+                          key={itemIdx}
+                          className="px-3.5 py-1.5 rounded-full bg-white/5 border border-[#cfa856]/30 text-[#cfa856] text-xs 2xl:text-sm font-mono font-semibold tracking-wide hover:bg-[#cfa856]/15 hover:border-[#cfa856] transition-all"
+                        >
+                          {item}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Category Description */}
+                  <p className="text-xs sm:text-sm 2xl:text-base text-slate-300 leading-relaxed font-normal pt-2">
+                    {skill.description}
+                  </p>
+
+                </div>
+              </ScrollReveal>
+            );
+          })}
         </div>
 
       </div>
@@ -104,3 +118,4 @@ export default function SkillSection() {
     </section>
   );
 }
+
