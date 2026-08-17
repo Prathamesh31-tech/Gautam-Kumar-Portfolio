@@ -783,6 +783,61 @@ const PRODUCT_SHOOT_CLOTHS_URLS = [
   "https://res.cloudinary.com/yoesjpsv/image/upload/v1786861603/_MG_9625.jpg"
 ];
 
+const RANDOM_WORK_URLS = [
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969057/SaveClip.App_AQPz3rJiIyQlWv4ovzjhuQAei-IxNZG52p4aBJrYnnqNV20CsYVs5dgp6phlqkWe_VADzoy6qWorCBVzzkVnw9JinhPxs9mWhVRvCYA.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969056/SaveClip.App_AQPNJdAununCUkhXpSKQyspQjTHzgH1RjlI2A__uURzv92O4_GFKsafBF6QLwnenURGgbT2qbkcIorDnbpf2Mk3HwTuQWO_3ZVRiq94.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969053/SaveClip.App_AQPWHqKnIRRWWFyH3-tNLHa0t9ayZFZCSwcAHdLT0Nc4rimPXrpiAYA-qWvl7Vri1OmRHykLGuRY1pX0sRSSW1gxwYzMcne-pGqMzag.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969051/SaveClip.App_AQPWHqKnIRRWWFyH3-tNLHa0t9ayZFZCSwcAHdLT0Nc4rimPXrpiAYA-qWvl7Vri1OmRHykLGuRY1pX0sRSSW1gxwYzMcne-pGqMzag_1.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969051/SaveClip.App_AQPwmXOdDenNNCFyd45j_KKXj3sOxUehad6tDB-j5zs7Jl5Hdz48JImjdI32A5om19b9kN6wUhquVNgpNxkvCOy3H4x4bErdL7dYqpc.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969050/SaveClip.App_AQPSTSOqMl2lfF_3Mp39eVZgewn6WhL_VfdjATrvOIRpZ6wXt-HcyhovO1ERnJvhvRNq-nZjuB2-3KNXY89cJovwbM9-ieIQGUtfmKw.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969045/SaveClip.App_AQPhLXyyrUMMY9bRqZ8NJuQbtMYn7wbg9nkWDy5NpOp4jygQ6K7C5t8bvjKPzM5oO9E7XXOhiB8ehvcr6-0t2GkSB20vM05retW83IA.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969045/SaveClip.App_AQPrIBtIsUDw4sWAfOhuU04aMl3UKZJAYnm4IdanJrDlq-HXclO0ISsk8AD8FIOKO8LLl3IPqFcHJIIDTaP2THyzYR_11pVDCoeKvO4.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969043/SaveClip.App_AQPLTOkNwEfjfreArCOeRY24KpyxCanOTZcXio2dOEykWL0vxeCeI8gZjEHHTWsZLDjx3-vT5Tn8SV-e65Ygv9egE95I0YN59k3Xv24.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969041/SaveClip.App_AQPLtDQXHyQyeGCLD9fC15Nh22Fhn_NKRhz7abkR7XJ2l712iHtq4M29GrwZAv6qYpgLIirgBN_OdrPI8WK4RdtqOKuEF4nX7vzN5uU.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969037/SaveClip.App_AQPH2W0B9bJziodzV1DSwI5hEvlhaaY0gAyrpBFlr7DpdQTOiK092o4l5wf5tebr_g_R9g_PnCp7EuXxQBOV14-O4CxfiCDrFpsXc2w.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969033/SaveClip.App_AQPdhkHIDghD606VS1epDE6RgC1VHkpFcPMnmXESAZDcJ4cJ2mezMaVb6R2YZGCi7X5g4XobQYyuCsp9hQyQKM4P_qEw0SRzs_52d0Q.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969026/SaveClip.App_AQPcjDq-LhZDwyAV5UI1FTV57eOC_ux0zKLVLknnwlLZ1WwLuyQcSDIY-HpgWp5FIGnd27-f2AoGh8Ibc1UQpNDrGnv_gecPmWFiJBU.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969025/SaveClip.App_AQOSc-iBa5Me9B9Uw5Z2r39OuwazaC9PrWZFZvRq1X58ab6mIPnSKsiEhYLfQiaHZdoFPDMd3R4ajVtaNaQVQlGnA497tutdRmtxs5U.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969025/SaveClip.App_AQP2eQq8f4fTQsJjc-ixHlVlY9lxLvcU8R7b-WKwO0Z5UfVXF9u9d88a5BHkBVkcUzyU45Ix85ftrHka9MZYVV0_OEeHiHlfDliMAbw.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969025/SaveClip.App_AQPCZ4xC8H3ZZeCTJ7MfMyi-PenI0TQREdIOSbnyI1Q8fiPCBJRIUOK-66XZzIRiHV2yI0eo9F05eEV15Ky1GfcjopmRBSyjFqq8o8w.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969024/SaveClip.App_AQP_aZ8Vn8AwnnaWuegsqTCpNZOUvVYvsg7kr3nu7-WCO6Dp1CC40khVedvruzVNftk5nPijQMSSynZLL3dYkpTcBrniiEtEGtsewKo.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969022/SaveClip.App_AQOsWxJzJWig-QK7cfWpYlvgtW7fyS3Qv-hg_qfyNObDZg7QuQJ_Fw7DxdCl7koqlmWgpSjtrSHhoILDLGj8WMXL8lzwQuxZDZYl7Cw.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969022/SaveClip.App_AQOxvcYCORwBZsFmp1RsGEokqgOE5b6IxrB0n4kV0R5i49qCNW5YLcWZ0LDLLQW3MLF9bov9Z6J3KQANRu0FnioiL94K72fvqdeBI_c.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969020/SaveClip.App_AQOXW2B9OkJLCfq2nSQ_z5QWpHzqqNpJEI3qOnfkqV7VvSoVhINd2mcPUQLetIksYe13Z0Nfkn2b8KCVuTe_YnCvIpO0tYoBs5f-Liw.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969017/SaveClip.App_AQOM5VWm3ayiHhoAQnNsAMnTuzSDr-9HL5E3-78uK-MR6XKO_z4hTBG9UAhA9DOJoo4s01P3WvLiWy0UEK8yL4V8sS8EkzSjU-CqDmc.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969016/SaveClip.App_AQO7BI8EyVkcP8ilFMOV2j9NtPYDQqmxxsXsXjxIVVHQEcVecFVO6nHDZoiic71qrKrbnkwbiGcp7M1Qrs12ggbJUcKpEHcUZvfwbrg.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969015/SaveClip.App_AQOb63yN6iHADuHcunI8P-SRcdIa2-JkWmxUpbbHRa16DWh0oWTPFx4dA8_HlTuA-KFA2sMoa_j2i1ydSXT414wdClBvfz3gLthO0ds.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969012/SaveClip.App_AQOl-tjgk53CYOuAADy0exAfTn01GHtTIuxWnBjuHjrs3RjbOZjt6bwi6qC9t28itE2pF7IZmbmgKvxEDd6YJRVAvbPulFIX4KNkVm4.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969012/SaveClip.App_AQO54b0QJonVeUAbxxQM6XQ1BilzmJZRr5BtvSV7Y4K3UtOwZB5n-wAyLry3mjI2zOrgneDhomKyRKv3EWwT25QyhwVGbDh-w770kfE.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969009/SaveClip.App_AQOE41Ucd9AzXV0fK90SWZKPnABwG7g2TAmm7JonAB3mDAaXorO0y30-xkLR0_porCCmWk0T_8-VCgnzb0hm4FFOx_z7TIEvZ7TJRZk.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969008/SaveClip.App_AQOf6KSjvMWk2yb8kAXOIVQL9M8IFIyZDVUb4HiXDnf-tvhtwJepIMOs5vD3TqgSyBD8hozaTJ7MP3tMIW3nAsbr0N9_ilP9QaBAjPE.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969006/SaveClip.App_AQNR7rXKHPXUzN3MbV54QF9Y_c0YWmm6Mjcl8hZXHWjYdsnlaq4vMe_mN3OOKhjhXhNwltSC7DDcP_TirpN6Lc3B2B29-IcmBEhoj5o.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969001/SaveClip.App_AQNozNq9n4K31-FBwNKYR8FfeHklV4JXYkxu8WwZXN74Ss_UnpCcU2uSrIanbc1KX-jXEkfCzRtCd2osAJkbILYGaAYJ1roRioUkT1E.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786969000/SaveClip.App_AQO4pcHCEU5TTma9LP3qXXb1IFcciehp0eduYPoOXTyf0sLiLIaFZxsJ9BRTpv_JwacoLgHo0vVgGjijmeIVsAFJuAlTHmDYZIUTOd4.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786968999/SaveClip.App_AQNI-yT6jEDJjvWijiTJyQswXUoaAOUL12x4F90WCT87DOIoEm1mwO4E3RDrFEHoGQtIJwgeHbmBbOepa1lfj8i7z7xYf1SiAV3-6oI.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786968999/SaveClip.App_AQNs3jlwAeVnVoJCxFJ0sKahqR_0HhvwkNTSeQl4SAVua4YU_l9-kMA2x5A9KnzSVtnZyKUxdaxeTLEzJQK86kCEw4hxma-3ql5up6M.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786968996/SaveClip.App_AQO0J5r5QSHSa2vRYM62rF1mU2a6F3oWljsLXrmUaFxIhuylhoUn0WxXf49xZP6wSr3lpfhIPvWjKmNMjhKwvW_8z_ASZLpn4O6WpM4.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786968992/SaveClip.App_AQN4TA1eXwrvTOe_jNHKV6nLXPAudPc6_5VH4MAgG7iIH3PAM4Fl10kYDDpfU4iet7SB_ZePBaOveTpAyQSsWgIh_A2nYgtVHlTZp80.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786968992/SaveClip.App_AQN8FcxM7pcj0SJTZUiA-456ehNy-SMjcb5cXWEgeHmFU1ZUQfH205ZTshsjzl1wlxx3Caqv2rEd46PfBkbGLYGNWfwdsrCYoudigDw.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786968991/SaveClip.App_AQMZhPq4NQIq0DcEE55PxZJPUgIP6gW-l0JTWNvk7vwTmXLgjO8tncAekxKHlCMZTuBgNu1ED-94dqFVJkVzXtdPtneWEwB82htUN10.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786968990/SaveClip.App_AQMIqLXTQgQ1980M_7ebFy5QYOj5yK6gQVAOur1z_kDVypOcZnLgaMMUp1SU3QqdW6wokaB94pT_0eh-Yfsb4dPT3Z_BgkLpSuQSyDE.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786968990/SaveClip.App_AQNlQFmm48H6ppzbgNdxKtOlaoRre-2TESg0OOz6Y5kNtuWKi8LKwYiur-e3a8urfr3x4EL7WGOxyKlZOIqqM5rMH_n8uUy1t1Aa1Go.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786968987/SaveClip.App_AQNlQFmm48H6ppzbgNdxKtOlaoRre-2TESg0OOz6Y5kNtuWKi8LKwYiur-e3a8urfr3x4EL7WGOxyKlZOIqqM5rMH_n8uUy1t1Aa1Go_1.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786968985/SaveClip.App_AQNlNvrGQ6qXO0x4jTOoOLG5QGlaPEXvDwrQPcwRA8UWlwsgn9R7hFtLhQMX1zNboI-Qg711ddzR9zOzMVMUZasxcmV3CVYeZQpws2o.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786968980/SaveClip.App_AQMbSxX2sSS2tDnRs9zCI_DQk-BS3Q6BWlkxgnSQxEueB9ThlgWoxNmLkRJAGyCtdVNKTqVCVkoYEs847m1-JiZxbUQwGhxJvOeW2kM_1.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786968979/SaveClip.App_AQMbSxX2sSS2tDnRs9zCI_DQk-BS3Q6BWlkxgnSQxEueB9ThlgWoxNmLkRJAGyCtdVNKTqVCVkoYEs847m1-JiZxbUQwGhxJvOeW2kM.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786968968/SaveClip.App_AQN3XSWyusrD0IhMSrCkZLJFMnV5n7NfaONtXEjONBYp4BJ7tHZINRPLRqGdjX-zCA9ysotfH1sd5OtVI5g-9xXlNqgDsW6oWKhRZ7U.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786968967/SaveClip.App_AQMryDQznGyUrLT4Ng3ymbFRogOEBOfavAsx9Tb_LD_cO6GoafRg3BsEwQzFdm_QeJgBQDakI-bLFf4jnGyFMILixwOao97nSlZWuWI.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786968965/SaveClip.App_AQMZ33mDRH0XJQE1GUMRyNkuF1laLEvnW91Ng7L3QdWlmdGyfHoOAoWFjdxIseJ6WYJ-4y0KvR762DMaWw-BDHPrRoMBMX7f-_OaPcI.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786968958/SaveClip.App_AQMS-ngqCBWm0xhD_l-qvHIpO6IvxLoc7-Saq0GnnuPUNht_Y1-YDf5SHi829WPfMOmoFAYqE_hRkcC3fbd6mpxH-qegTGKDjbBZDIM.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786968957/SaveClip.App_AQMdrTk5n1Z0zyEqVfpo1CnqnMYC8bDeowZ3lRNYvKwGXJjrssg7uwHM09DbeBPsz_hPr8UeNn695YQsn_LC9Df4wmZFJIQ2haIpAtA.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786968953/SaveClip.App_AQM4GIG-8DzBqYASGrM7WT-uGNiNNU7nS3-A0n634Iqil-XKj68XonrFwzu8mQTQGPRgs3t-5D2wIfxeF7GGwmvDq4NTZQ3qJnXYPOo.mp4",
+  "https://res.cloudinary.com/c5fygt8y/image/upload/v1786968950/SaveClip.App_576082758_18326003500214616_8329559967452383246_n.jpg",
+  "https://res.cloudinary.com/c5fygt8y/image/upload/v1786968950/SaveClip.App_561357671_18085300844506670_5987323367091753437_n.jpg",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786862178/Comp_1.mp4",
+  "https://res.cloudinary.com/c5fygt8y/video/upload/v1786862167/Reel.mp4"
+];
+
 const PRODUCT_SHOOT_SUBFOLDERS = [
   {
     id: 'jewellery',
@@ -933,14 +988,18 @@ const WORK_CATEGORIES = [
     id: 'random-work',
     title: 'RANDOM WORK',
     icon: Layers,
-    coverImage: 'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1000&q=80',
+    coverImage: RANDOM_WORK_URLS[0].includes('/video/upload/') ? RANDOM_WORK_URLS[0].replace(/\.mp4$/i, '.jpg') : RANDOM_WORK_URLS[0],
+    coverVideo: RANDOM_WORK_URLS[0].includes('/video/upload/') ? RANDOM_WORK_URLS[0] : null,
     description: 'A creative mix of spontaneous moments, travel captures, and experimental visual projects.',
-    gallery: [
-      { id: 1, type: 'image', url: 'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1200&q=80' },
-      { id: 2, type: 'image', url: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80' },
-      { id: 3, type: 'image', url: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80' },
-      { id: 4, type: 'image', url: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1200&q=80' }
-    ]
+    gallery: RANDOM_WORK_URLS.map((url, index) => {
+      const isVideo = url.includes('/video/upload/') || url.endsWith('.mp4');
+      return {
+        id: index + 1,
+        type: isVideo ? 'video' : 'image',
+        url: url,
+        cover: isVideo ? url.replace(/\.mp4$/i, '.jpg') : url
+      };
+    })
   }
 ];
 
