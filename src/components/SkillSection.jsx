@@ -53,7 +53,7 @@ export default function SkillSection() {
           </div>
 
           {/* Headline */}
-          <h2 className="text-2xl sm:text-4xl md:text-5xl 2xl:text-6xl font-sans font-black tracking-tight text-white uppercase leading-tight max-w-4xl mx-auto">
+          <h2 className="text-[1.15rem] xs:text-xl sm:text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl font-sans font-black tracking-tight text-white uppercase leading-tight whitespace-nowrap max-w-none mx-auto">
             SKILLS &nbsp;<span className="text-[#cfa856]">& EXPERTISE</span>
           </h2>
 
@@ -82,7 +82,7 @@ export default function SkillSection() {
                         <div className="w-10 h-10 2xl:w-12 2xl:h-12 rounded-xl bg-black/80 border border-[#cfa856]/40 flex items-center justify-center text-[#cfa856] group-hover:bg-[#cfa856] group-hover:text-black transition-all">
                           <IconComponent className="w-5 h-5 2xl:w-6 2xl:h-6" />
                         </div>
-                        <h3 className="text-lg sm:text-xl 2xl:text-2xl font-black font-sans text-white tracking-wider uppercase group-hover:text-[#cfa856] transition-colors">
+                        <h3 className="text-base sm:text-xl 2xl:text-2xl font-black font-sans text-white tracking-wider uppercase whitespace-nowrap overflow-hidden text-ellipsis group-hover:text-[#cfa856] transition-colors">
                           {skill.category}
                         </h3>
                       </div>

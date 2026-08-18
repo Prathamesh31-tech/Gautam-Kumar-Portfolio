@@ -51,7 +51,7 @@ export default function ContactSection() {
           </div>
 
           {/* Headline */}
-          <h2 className="text-2xl sm:text-4xl md:text-5xl 2xl:text-6xl font-sans font-black tracking-tight text-white uppercase leading-tight max-w-4xl mx-auto">
+          <h2 className="text-[1.05rem] xs:text-lg sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-sans font-black tracking-tight text-white uppercase leading-tight whitespace-nowrap max-w-none mx-auto">
             LET'S CREATE &nbsp;<span className="text-[#cfa856]">SOMETHING EXTRAORDINARY</span>
           </h2>
 

@@ -96,7 +96,7 @@ export default function ExperienceSection() {
           </div>
 
           {/* Headline */}
-          <h2 className="text-2xl sm:text-4xl md:text-5xl 2xl:text-6xl font-sans font-black tracking-tight text-white uppercase leading-tight max-w-4xl mx-auto">
+          <h2 className="text-[1.15rem] xs:text-xl sm:text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl font-sans font-black tracking-tight text-white uppercase leading-tight whitespace-nowrap max-w-none mx-auto">
             WORK EXPERIENCE &nbsp;<span className="text-[#cfa856]">& LEADERSHIP</span>
           </h2>
 

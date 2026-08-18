@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Play } from 'lucide-react';
+import { ArrowDown } from 'lucide-react';
 
 const BACKGROUND_IMAGE_URL = "https://res.cloudinary.com/yoesjpsv/image/upload/v1786519778/Gemini_Generated_Image_97itaf97itaf97it.png";
 
@@ -79,15 +79,15 @@ export default function HeroSection({ onOpenShowreel }) {
           <div className="flex flex-wrap items-center gap-3 lg:gap-4 xl:gap-5 2xl:gap-7 3xl:gap-9 4xl:gap-11 pt-1.5 sm:pt-2 lg:pt-3 2xl:pt-7 3xl:pt-10 4xl:pt-14 hero-buttons-container">
             
             {/* Primary Gold Filled Button */}
-            <button
-              onClick={onOpenShowreel}
-              className="px-5 sm:px-6 lg:px-7 xl:px-8 2xl:px-12 3xl:px-16 4xl:px-20 py-2 sm:py-2.5 lg:py-3 xl:py-3.5 2xl:py-5 3xl:py-6 4xl:py-8 rounded bg-[#cfa856] hover:bg-[#dfb864] text-black font-bold text-[11px] sm:text-xs lg:text-xs xl:text-sm 2xl:text-lg 3xl:text-2xl 4xl:text-3xl tracking-widest uppercase flex items-center gap-2 lg:gap-2.5 2xl:gap-4 3xl:gap-5 shadow-lg shadow-[#cfa856]/20 transition-all transform hover:-translate-y-0.5 active:scale-95"
+            <a
+              href="#work"
+              className="px-5 sm:px-6 lg:px-7 xl:px-8 2xl:px-12 3xl:px-16 4xl:px-20 py-2 sm:py-2.5 lg:py-3 xl:py-3.5 2xl:py-5 3xl:py-6 4xl:py-8 rounded bg-[#cfa856] hover:bg-[#dfb864] text-black font-bold text-[11px] sm:text-xs lg:text-xs xl:text-sm 2xl:text-lg 3xl:text-2xl 4xl:text-3xl tracking-widest uppercase flex items-center gap-2 lg:gap-2.5 2xl:gap-4 3xl:gap-5 shadow-lg shadow-[#cfa856]/20 transition-all transform hover:-translate-y-0.5 active:scale-95 cursor-pointer"
             >
               <div className="w-3.5 h-3.5 sm:w-4 sm:h-4 lg:w-4.5 lg:h-4.5 xl:w-5 xl:h-5 2xl:w-7 2xl:h-7 3xl:w-9 3xl:h-9 4xl:w-11 4xl:h-11 rounded-full bg-black/20 flex items-center justify-center">
-                <Play className="w-2 h-2 lg:w-2.5 lg:h-2.5 2xl:w-3.5 2xl:h-3.5 3xl:w-4.5 3xl:h-4.5 fill-black ml-0.5" />
+                <ArrowDown className="w-2.5 h-2.5 lg:w-3 lg:h-3 2xl:w-4 2xl:h-4 text-black stroke-[3]" />
               </div>
               <span>VIEW WORK</span>
-            </button>
+            </a>
 
             {/* Secondary Gold Border Button */}
             <a
