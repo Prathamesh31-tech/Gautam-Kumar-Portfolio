@@ -7,7 +7,7 @@ const SKILLS = [
     id: 'photo-video',
     category: 'PHOTO / VIDEO',
     icon: Camera,
-    items: ['Photoshop', 'Lightroom', 'Premiere Pro', 'DaVinci Resolve', 'After Effects', 'CapCut'],
+    items: ['Photoshop', 'Lightroom', 'Premiere Pro', 'DaVinci Resolve', 'After Effects', 'CapCut Pro'],
     description: 'Advanced video editing, color grading, motion cuts, VFX, and high-end RAW photo retouching using industry-standard tools.'
   },
   {
